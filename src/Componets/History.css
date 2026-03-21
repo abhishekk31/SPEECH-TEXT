@@ -1,0 +1,77 @@
+/* Container */
+.history-container {
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Title */
+.history-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #222;
+  text-align: center;
+}
+
+/* No data */
+.no-history {
+  text-align: center;
+  color: #888;
+  font-size: 16px;
+}
+
+/* Card */
+.history-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 15px 18px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  animation: fadeInUp 0.4s ease;
+}
+
+/* Hover effect */
+.history-card:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* Text */
+.history-text {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+/* Date */
+.history-date {
+  font-size: 13px;
+  color: #777;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.delete-btn{
+  background: #EEEEEE;
+  color: #222;
+  border: 1px solid rgba(0,0,0,0.08);
+  padding: 5px 20px;
+  border-radius: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  margin:15px;
+  margin-left: 80px;
+}
