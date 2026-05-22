@@ -3,11 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
 import Maindev from './Componets/Maindev'
 import Novabar from './Componets/Novabar'
 import History from './Componets/History'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Footer from './Componets/Footer'
+
+
 
 
 
@@ -20,9 +23,10 @@ function App() {
       <Routes>
         <Route path='/' element=
           {<>
-            <Novabar />
+           
+           <Novabar />
             <Maindev />
-            <Footer/>
+            <Footer />
           </>}>
         </Route>
 
